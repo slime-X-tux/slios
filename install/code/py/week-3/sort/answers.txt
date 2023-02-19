@@ -1,0 +1,23 @@
+sort1 uses: selection sort
+
+How do you know?: Selection sort is better than buble sort in sorted problems but is worse than bubble sort in reversed problems.
+
+sort2 uses: merge sort
+
+How do you know?: It is optimal and somewhat better in all the three cases but is best in random problems.
+
+sort3 uses: bubble sort
+
+How do you know?: Bubble sort is better than selection sort in reversed problems but is worst in sorted problems.
+
+selection           merge                   bubble
+sort1               sort2                   sort3
+
+sorted -
+0m0.381s            0m0.396s                0m3.583s
+
+reversed-
+0m6.382s            0m0.335s                0m0.578s
+
+random-
+0m8.667s            0m0.362s                0m3.338s                
